@@ -10298,3 +10298,12 @@ a.text-dark:focus {
   height: 100%;
   object-fit: cover;
 }
+@media (max-width: 740px) {
+  .carousel-item {
+    height: 240px !important;
+  }
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
